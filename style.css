@@ -8,6 +8,10 @@ main {
   flex-grow: 2;
 }
 
+header {
+  display: flex;
+}
+
 ul {
   padding: 0px;
   font-family: "Franklin Gothic Medium";
