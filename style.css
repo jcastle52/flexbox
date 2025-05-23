@@ -1,0 +1,97 @@
+* {
+  background-color: white;
+  border-radius: 1vw;
+}
+
+main {
+  display: flex;
+  flex-grow: 2;
+}
+
+ul {
+  padding: 0px;
+  font-family: "Franklin Gothic Medium";
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  margin: 0.5vw;
+  padding: 1vw;
+  background-color: darkgreen;
+  color: white;
+}
+
+p {
+  background-color: antiquewhite;
+  font-size: 1.5vw;
+  margin: 1vw;
+  border-radius: 0;
+  padding: 1vw;
+}
+
+article {
+  background-color: antiquewhite;
+  font-family: Arial;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.testimonial {
+  background-color: bisque;
+  padding: 1vw;
+  font-size: 2vw;
+}
+
+blockquote {
+  background-color: bisque;
+}
+
+figcaption {
+  background-color: bisque;
+}
+
+h1 {
+  padding: 1vw;
+  text-align: center;
+  color: darkgreen;
+  font-size: 3vw;
+}
+
+.brand {
+  background-color: white;
+  text-align: center;
+  color: darkgreen;
+  font-family: "Franklin Gothic Medium";
+  font-size: 5vw;
+}
+
+nav {
+  font-size: 2vw;
+  font-family: "Franklin Gothic Medium";
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  background-color: antiquewhite;
+  margin: 1vw;
+  padding: 2vw;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 4vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
